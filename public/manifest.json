@@ -3,7 +3,7 @@
   "name": "App Collection",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "./icon.png",
       "sizes": "64x64",
       "type": "image/x-icon"
     }
