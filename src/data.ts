@@ -4,7 +4,7 @@ const data = {
       title: "Hori Roll",
       version: "1.1.3",
       desc: "Roll hori as far away as possible !",
-      img: "",
+      img: "https://picsum.photos/200/300",
       link: "",
     },
     {

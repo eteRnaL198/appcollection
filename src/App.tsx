@@ -27,14 +27,15 @@ function App() {
   }, [])
 
   return (
-    <div className="pt-4 px-6">
-      <header className="font-bold">
-        <h1 className="text-4xl">App Collection</h1>
-        <p>Why Don't You Waste Your Time ?</p>
+    <div className="pt-4 px-8">
+      <header className="font-bold mb-8 sticky">
+        <h1 className="mb-3 text-5xl">App Collection</h1>
+        <p className="text-lg text-gray-400 tracking-wide">Why Don't You Waste Your Time ?</p>
       </header>
-      {data.list.map((data,idx) => (
+      <Card data={data.list[0]} />
+      {/* {data.list.map((data,idx) => (
         <Card key={idx} data={data} />
-      ))}
+      ))} */}
     </div>
   );
 }
