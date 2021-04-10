@@ -9,10 +9,12 @@ type Data = {
   desc: string,
   img: string,
   url: string,
+  click: number,
 }
 
 function App() {
   const [data, setData] = useState<Data[]>([]);
+
   // writeData();
   useEffect(() => {
     if(!firebase.apps.length) {
@@ -28,12 +30,25 @@ function App() {
     }
     (async () => {
       const db = firebase.firestore();
-      const doc = db.collection("data").doc("bv47K7fcuX8iEmZ0c7eI");
-      await doc.get().then((doc) => {
+      const appData = db.collection("data").doc("bv47K7fcuX8iEmZ0c7eI");
+      await appData.get().then((doc) => {
         setData(doc.get("list"));
       });
     })();
   }, [])
+
+  const handleClick = (idx: number) => {
+    data[idx].click++;
+    setData(data);
+    const newData = {
+      list: data,
+    };
+    console.log(newData);
+    (async () => {
+      const db = firebase.firestore();
+      await db.collection("data").doc("bv47K7fcuX8iEmZ0c7eI").set(newData);
+    })();
+  }
 
   return (
     <div className="pt-6">
@@ -41,11 +56,11 @@ function App() {
         <h1 className="mb-3 text-5xl">App Collection</h1>
         <p className="text-lg text-gray-400 pb-4">Why Don't You Waste Your Time ?</p>
       </header>
-      <div className="px-8">
+      <section className="px-8">
         {data.map((data,idx) => (
-          <Card key={idx} data={data} />
+          <Card data={data} handleClick={handleClick} idx={idx} key={idx} />
         ))}
-      </div>
+      </section>
     </div>
   );
 }
