@@ -19,7 +19,7 @@ const data = {
       click: 5,
     },
     {
-      titke: "Twitter Clone",
+      title: "Twitter Clone",
       version: "1.0",
       desc: "Talk to yourself!",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/twitterclone.jpg",
