@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import firebase from 'firebase';
 import { Card } from "./components/index";
-import writeData from "./data";
+// import writeData from "./data";
 
 type Data = {
   title: string,
@@ -54,7 +54,9 @@ function App() {
     <div className="pt-6">
       <header className="bg-white font-bold mb-10 px-8 sticky shadow-md top-0">
         <h1 className="mb-3 text-5xl">App Collection</h1>
-        <p className="text-lg text-gray-400 pb-4">Why Don't You Waste Your Time ?</p>
+        {/* <p className="text-lg text-gray-400 pb-4">Why Don't You Waste Your Time ?</p> */}
+        <p className="text-lg text-gray-400">Welcome to App Collection!</p>
+        <p className="text-lg text-gray-400 pb-4">Have a great time!</p>
       </header>
       <section className="px-8">
         {data.map((data,idx) => (
