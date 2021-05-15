@@ -3,19 +3,29 @@ import firebase from 'firebase';
 const data = {
   list: [
     {
-      title: "Hori Roll",
-      version: "1.1.3",
-      desc: "Roll hori as far away as possible !",
-      img: "https://picsum.photos/200/300",
-      url: "https://horiroll.web.app/",
-    },
-    {
       title: "Word Chain Talker",
       version: "1.0",
       desc: "Chain our words and bond our hearts.",
       img: "https://picsum.photos/200/300",
       url: "https://wordchaingame-3e0fc.web.app/",
+      click: 9,
     },
+    {
+      title: "Hori Roll",
+      version: "1.1.3",
+      desc: "Roll hori as far away as possible !",
+      img: "https://picsum.photos/200/300",
+      url: "https://horiroll.web.app/",
+      click: 5,
+    },
+    {
+      titke: "Twitter Clone",
+      version: "1.0",
+      desc: "Talk to yourself!",
+      img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/twitterclone.jpg",
+      url: "https://deltoid3.github.io/twitterclone/",
+      click: 6,
+    }
   ]
 }
 
