@@ -3,25 +3,25 @@ import firebase from 'firebase';
 const data = {
   list: [
     {
-      title: "Word Chain Talker",
-      version: "1.0",
-      desc: "Chain our words and bond our hearts.\nmade with React.js & TypeScript",
-      img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/wordchaintalker.jpg",
-      url: "https://wordchaingame-3e0fc.web.app/",
-      click: 0,
-    },
-    {
       title: "Hori Roll",
       version: "1.1.3",
-      desc: "Roll hori as far away as possible !\nmade with enchant.js",
+      desc: "Roll hori as far away as possible !",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/horiroll.jpg",
       url: "https://horiroll.web.app/",
       click: 0,
     },
     {
+      title: "Word Chain Talker",
+      version: "1.0",
+      desc: "Chain our words and bond our hearts !",
+      img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/wordchaintalker.jpg",
+      url: "https://wordchaingame-3e0fc.web.app/",
+      click: 0,
+    },
+    {
       title: "Twitter Clone",
       version: "1.0",
-      desc: "Talk to yourself!\nmade with JavaScript",
+      desc: "Talk to yourself!",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/twitterclone.jpg",
       url: "https://deltoid3.github.io/twitterclone/",
       click: 0,
