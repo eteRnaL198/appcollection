@@ -5,26 +5,26 @@ const data = {
     {
       title: "Word Chain Talker",
       version: "1.0",
-      desc: "Chain our words and bond our hearts.",
+      desc: "Chain our words and bond our hearts.\nmade with React.js & TypeScript",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/wordchaintalker.jpg",
       url: "https://wordchaingame-3e0fc.web.app/",
-      click: 9,
+      click: 0,
     },
     {
       title: "Hori Roll",
       version: "1.1.3",
-      desc: "Roll hori as far away as possible !",
+      desc: "Roll hori as far away as possible !\nmade with enchant.js",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/horiroll.jpg",
       url: "https://horiroll.web.app/",
-      click: 5,
+      click: 0,
     },
     {
       title: "Twitter Clone",
       version: "1.0",
-      desc: "Talk to yourself!",
+      desc: "Talk to yourself!\nmade with JavaScript",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/twitterclone.jpg",
       url: "https://deltoid3.github.io/twitterclone/",
-      click: 6,
+      click: 0,
     }
   ]
 }

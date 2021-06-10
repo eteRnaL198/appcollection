@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import firebase from 'firebase';
 import { Card } from "./components/index";
-import writeData from "./data";
+// import writeData from "./data";
 
 type Data = {
   title: string,
@@ -15,7 +15,7 @@ type Data = {
 function App() {
   const [data, setData] = useState<Data[]>([]);
 
-  writeData();
+  // writeData();
   useEffect(() => {
     if(!firebase.apps.length) {
       firebase.initializeApp({

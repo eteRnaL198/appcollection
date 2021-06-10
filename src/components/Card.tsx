@@ -20,7 +20,7 @@ const Card: React.FC<Props> = (props: Props) => {
         <p className="font-bold mb-1 text-2xl tracking-wide">{props.data.title}</p>
         <div className="mb-2 text-lg">
           <p>ver {props.data.version}</p>
-          <p>{props.data.desc}</p>
+          <p className="whitespace-pre-wrap">{props.data.desc}</p>
         </div>
         <p className="bg-indigo-300 font-bold mx-auto rounded-full tracking-widest text-center text-white w-2/3">Play</p>
       </a>
