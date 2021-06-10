@@ -5,7 +5,7 @@ const data = {
     {
       title: "Hori Roll",
       version: "1.1.3",
-      desc: "Roll hori as far away as possible !",
+      desc: "Roll hori as far away as possible!",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/horiroll.jpg",
       url: "https://horiroll.web.app/",
       click: 0,
@@ -13,7 +13,7 @@ const data = {
     {
       title: "Word Chain Talker",
       version: "1.0",
-      desc: "Chain our words and bond our hearts !",
+      desc: "Chain our words and bond our hearts!",
       img: "https://storage.googleapis.com/appcollection-f9fae.appspot.com/images/wordchaintalker.jpg",
       url: "https://wordchaingame-3e0fc.web.app/",
       click: 0,
